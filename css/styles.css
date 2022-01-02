@@ -1,0 +1,111 @@
+ /* tags */
+ body {
+     margin: 0;
+     background-color: #E4F9F5;
+     text-align: center;
+     font-family: 'Roboto', serif;
+     font-size: .9em;
+     color: #40514E;
+     position: absolute;
+ }
+
+ h1 {
+     font-family: 'Sacramento';
+     margin-top: 3.57%;
+     font-size: 3rem;
+ }
+
+ h2 {
+     font-family: 'Montserrat';
+     text-decoration: underline;
+     font-size: 1.3rem;
+     margin-bottom: 1%;
+     font-weight: normal;
+ }
+
+ h3 {
+     font-family: 'Montserrat';
+     margin: auto;
+ }
+
+
+ /* classes */
+ .contact-me {
+    margin: auto auto 0.0714% ;
+    padding-bottom: 0;
+ }
+ .container1 {
+     position: relative;
+     padding-top: 3.57%;
+ }
+
+ .cloud1 {
+     width: 12%;
+     position: absolute;
+     right: 21.5%;
+     top: 60.14%;
+ }
+
+ .cloud2 {
+     width: 12%;
+     position: absolute;
+     left: 21.7%;
+     top: 14.8%;
+ }
+ .experience {
+     position: relative;
+ }
+ .expImgs {
+     width: 5%;
+     position: relative;
+     top: 6.42857%;
+     background-color: #b8911386;
+     padding: 0.357%;
+     border-radius: 10%;
+     margin-bottom: .7%;
+     
+     
+ }
+ .expTit {
+     position: relative;
+     bottom: 6.441%;
+ }
+ .exp-row {
+     margin-bottom: 1%;
+ }
+ .mountain {
+    position: relative;
+    left: 15px;
+    bottom: 40px;
+    display: none;
+ }
+ .parsDesc {
+    position: relative;
+    bottom: 7.143%;
+    margin: auto 21% .7%;
+
+ }
+ .parsIntro {
+    position: relative;
+    bottom: 0.7143%;
+    margin: auto 15% auto;
+    padding-bottom: 1%;
+
+ }
+.present {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.profile {
+    margin-top: 1.43%;
+}
+.profpic {
+    width: 12%;
+    border-radius: 100%;
+}
+.skills {
+    position: relative;
+}
+.skill-row {
+    margin-bottom: 1%;
+}
