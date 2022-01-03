@@ -8,38 +8,93 @@
      color: #40514E;
      position: absolute;
  }
+a {
+    color: #EAF6F6;
+    text-decoration: none;
+}
+ hr {
+     width: 8%;
+     border-style: dotted none none;
+     border-width: 16px;
+     border-color: #40514E;
+ }
 
  h1 {
      font-family: 'Sacramento';
      margin-top: 3.57%;
-     font-size: 3rem;
+     font-size: 3.5rem;
+     line-height: 1.4;
+     color: #66BFBF;
  }
 
  h2 {
      font-family: 'Montserrat';
      text-decoration: underline;
-     font-size: 1.5rem;
-     margin-bottom: 1%;
+     font-size: 1.7rem;
+     margin: 4% auto 4%;
      font-weight: normal;
+     color: #66BFBF;
  }
 
  h3 {
      font-family: 'Montserrat';
      margin: auto;
-     font-size: 1.1rem;
-     margin-bottom: 1.7%;
+     font-size: 1.3rem;
+     margin: auto 5% .7%;
+     padding-top: 4%;
+     color: #66BFBF;
  }
 
 
  /* classes */
+ .btn {
+    background: #83d4d4;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #0e7070);
+    background-image: -moz-linear-gradient(top, #66BFBF, #0e7070);
+    background-image: -ms-linear-gradient(top, #66BFBF, #0e7070);
+    background-image: -o-linear-gradient(top, #66BFBF, #0e7070);
+    background-image: linear-gradient(to bottom, #66BFBF, #0e7070);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: .4% 1.3% .4% 1.3%;
+    text-decoration: none;
+    margin-bottom: 3%;
+    text-decoration: none;
+    border: none;
+  }
+  
+  .btn:hover {
+    background: #0e7070;
+    background-image: -webkit-linear-gradient(top, #0e7070, #0e7070);
+    background-image: -moz-linear-gradient(top, #0e7070, #0e7070);
+    background-image: -ms-linear-gradient(top, #0e7070, #0e7070);
+    background-image: -o-linear-gradient(top, #0e7070, #0e7070);
+    background-image: linear-gradient(to bottom, #0e7070, #0e7070);
+    text-decoration: none;
+  }
  .contact-me {
      margin: auto auto 0.0714%;
      padding-bottom: 0;
  }
-
+ .contact-me h2 {
+     margin: 1.5% auto 1.5%;
+ }
+.contact-me h3 {
+    padding: 0%;
+    margin-bottom: 2%;
+}
  .container1 {
      position: relative;
      padding-top: 3.57%;
+ }
+
+ .container3 {
+     background-color: #66BFBF;
+     padding: 3% 0 1.5%;
  }
 
  .cloud1 {
@@ -60,32 +115,36 @@
      position: relative;
  }
 
- .expImgs {
-     width: 15%;
-     position: relative;
-     top: 6.42857%;
-     background-color: #b8911386;
-     padding: 0.7%;
-     border-radius: 10%;
-     margin-bottom: .7%;
-     margin-top: 2.7%;
-
-
- }
-
- .expTit {
-     position: relative;
-     bottom: 6.441%;
- }
-
  .exp-row {
-     margin-bottom: 1.5%;
      background-color: #c3cccabd;
      border-radius: 5%;
-     width: 25%;
-     text-align: center;
-     position: relative;
-     left: 37.5%;
+     width: 50%;
+     height: 11rem;
+     margin: 2% auto 5%;
+     text-align: left;
+     padding-bottom: 2%;
+ }
+.footer-link {
+   margin: 1%; 
+   color: #0a7a7e;
+   font-family: 'Montserrat';
+   font-weight: bolder;
+   text-decoration: none;
+   font-size: 1rem;
+}
+ .hr1 {
+     margin-top: 4%;
+     margin-bottom: 1.5%;
+ }
+
+ .hr2 {
+     margin-top: 0;
+     margin-bottom: 2%;
+ }
+
+ .hr3 {
+     margin-top: 0;
+     margin-bottom: 2%;
  }
 
  .mountain {
@@ -94,23 +153,23 @@
      bottom: 40px;
      display: none;
  }
-
+.name {
+    color: #EAF6F6;
+    margin: 3% auto 1%;
+}
  .parsDesc {
-     position: relative;
-     bottom: 7.143%;
-     margin: auto 5% .7%;
-     font-size: 100%;
+     margin: 2% 3% 3% 5%;
+     font-size: 1rem;
      padding-bottom: 1.7%;
+     line-height: 1.4;
 
  }
 
  .parsIntro {
-     position: relative;
-     bottom: 0.7143%;
-     margin: auto 20% auto;
-     padding-bottom: 1%;
+     margin: auto 15% auto;
+     padding-bottom: 2.5%;
      font-size: 1rem;
-
+     line-height: 1.5;
  }
 
  .present {
@@ -119,12 +178,18 @@
  }
 
  .profile {
-     margin-top: 1.43%;
+     width: 60%;
+     margin: 3% auto 3%;
+     background-color: #c3cccabd;
+     border-radius: 5%;
+     text-align: left;
+
  }
 
- .profpic {
-     width: 12%;
-     border-radius: 100%;
+ .profile h2 {
+     padding-top: 2%;
+     padding-bottom: 1%;
+     margin: auto;
  }
 
  .skills {
@@ -132,11 +197,37 @@
  }
 
  .skill-row {
-     margin-bottom: 1.5%;
      background-color: #c3cccabd;
      border-radius: 5%;
-     width: 25%;
-     text-align: center;
-     position: relative;
-     left: 37.5%;
+     width: 50%;
+     height: 11rem;
+     margin: 2% auto 5%;
+     text-align: left;
  }
+
+ /* IMAGES */
+
+ .expImgsLeft {
+     width: 17%;
+     /*background-color: #b8911386; */
+     padding: 0.7%;
+     border-radius: 10%;
+     margin: 5% 5% 2%;
+     float: left;
+ }
+
+ .expImgsRight {
+     width: 17%;
+     /*background-color: #b8911386; */
+     padding: 0.7%;
+     border-radius: 10%;
+     margin: 5% 5% 3%;
+     float: right;
+ }
+
+ .profpic {
+    width: 18%;
+    border-radius: 100%;
+    float: left;
+    margin: 3.5% 5.5% 3.5% 3.5%;
+}
