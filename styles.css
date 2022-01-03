@@ -8,10 +8,19 @@
      color: #40514E;
      position: absolute;
  }
-a {
+ a {
+     text-decoration: none;
+     color:#40514E;
+     font-weight: bold;
+ }
+a:hover {
+   color: #EAF6F6;
+ }
+button a {
     color: #EAF6F6;
     text-decoration: none;
 }
+
  hr {
      width: 8%;
      border-style: dotted none none;
@@ -20,7 +29,7 @@ a {
  }
 
  h1 {
-     font-family: 'Sacramento';
+     font-family: 'Sacramento', sans-serif;
      margin-top: 3.57%;
      font-size: 3.5rem;
      line-height: 1.4;
@@ -28,36 +37,36 @@ a {
  }
 
  h2 {
-     font-family: 'Montserrat';
+     font-family: 'Montserrat', sans-serif;
      text-decoration: underline;
      font-size: 1.7rem;
      margin: 4% auto 4%;
      font-weight: normal;
-     color: #66BFBF;
+     color: #419e9e;
  }
 
  h3 {
-     font-family: 'Montserrat';
+     font-family: 'Montserrat', sans-serif;
      margin: auto;
      font-size: 1.3rem;
      margin: auto 5% .7%;
      padding-top: 4%;
-     color: #66BFBF;
+     color: #419e9e;
  }
 
 
  /* classes */
  .btn {
-    background: #83d4d4;
-    background-image: -webkit-linear-gradient(top, #66BFBF, #0e7070);
-    background-image: -moz-linear-gradient(top, #66BFBF, #0e7070);
-    background-image: -ms-linear-gradient(top, #66BFBF, #0e7070);
-    background-image: -o-linear-gradient(top, #66BFBF, #0e7070);
-    background-image: linear-gradient(to bottom, #66BFBF, #0e7070);
-    -webkit-border-radius: 10;
-    -moz-border-radius: 10;
-    border-radius: 7px;
-    font-family: Arial;
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat';
     color: #ffffff;
     font-size: 1rem;
     padding: .4% 1.3% .4% 1.3%;
@@ -68,12 +77,12 @@ a {
   }
   
   .btn:hover {
-    background: #0e7070;
-    background-image: -webkit-linear-gradient(top, #0e7070, #0e7070);
-    background-image: -moz-linear-gradient(top, #0e7070, #0e7070);
-    background-image: -ms-linear-gradient(top, #0e7070, #0e7070);
-    background-image: -o-linear-gradient(top, #0e7070, #0e7070);
-    background-image: linear-gradient(to bottom, #0e7070, #0e7070);
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
  .contact-me {
@@ -132,6 +141,7 @@ a {
    text-decoration: none;
    font-size: 1rem;
 }
+
  .hr1 {
      margin-top: 4%;
      margin-bottom: 1.5%;
